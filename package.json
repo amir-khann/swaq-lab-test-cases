@@ -1,0 +1,23 @@
+{
+  "name": "swag-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "playwright": "^1.53.1",
+    "playwright-core": "^1.53.1"
+  },
+  "description": ""
+}
